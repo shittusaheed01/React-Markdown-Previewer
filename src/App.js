@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown"
 import "./App.css"
 
 function App(props) {
-  const [text, setText] = useState("")
+  const [text, setText] = useState("# Heading 1")
   const handleChange = (e) => {
     setText(e.target.value)
   }
